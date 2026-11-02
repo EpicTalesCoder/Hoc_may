@@ -1,0 +1,16 @@
+{
+  "dataset": "vi_spam",
+  "features": "BoW",
+  "model": "NaiveBayes",
+  "best_params": {
+    "clf__alpha": 0.5
+  },
+  "cv_f1": 0.8615,
+  "test_accuracy": 0.9594,
+  "test_precision": 0.9431,
+  "test_recall": 0.7945,
+  "test_f1": 0.8625,
+  "train_size": 3644,
+  "test_size": 911,
+  "random_state": 42
+}

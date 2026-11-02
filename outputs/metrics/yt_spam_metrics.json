@@ -1,0 +1,16 @@
+{
+  "dataset": "yt_spam",
+  "features": "BoW",
+  "model": "RandomForest",
+  "best_params": {
+    "clf__n_estimators": 200
+  },
+  "cv_f1": 0.9395,
+  "test_accuracy": 0.9773,
+  "test_precision": 0.9819,
+  "test_recall": 0.9702,
+  "test_f1": 0.976,
+  "train_size": 1408,
+  "test_size": 352,
+  "random_state": 42
+}

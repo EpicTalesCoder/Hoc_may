@@ -1,1 +1,9 @@
-Slides/
+# Data & outputs lớn
+data/raw/
+outputs/models/*.joblib
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,40 @@
+{
+  "best": {
+    "yt_spam": {
+      "dataset": "yt_spam",
+      "features": "BoW",
+      "model": "RandomForest",
+      "best_params": {
+        "clf__n_estimators": 200
+      },
+      "cv_f1": 0.9395,
+      "test_accuracy": 0.9773,
+      "test_precision": 0.9819,
+      "test_recall": 0.9702,
+      "test_f1": 0.976,
+      "train_size": 1408,
+      "test_size": 352,
+      "random_state": 42
+    },
+    "vi_spam": {
+      "dataset": "vi_spam",
+      "features": "BoW",
+      "model": "NaiveBayes",
+      "best_params": {
+        "clf__alpha": 0.5
+      },
+      "cv_f1": 0.8615,
+      "test_accuracy": 0.9594,
+      "test_precision": 0.9431,
+      "test_recall": 0.7945,
+      "test_f1": 0.8625,
+      "train_size": 3644,
+      "test_size": 911,
+      "random_state": 42
+    }
+  },
+  "errors": {
+    "yt_spam": 8,
+    "vi_spam": 37
+  }
+}
